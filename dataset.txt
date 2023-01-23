@@ -1,0 +1,16 @@
+TMIN, TMAX
+PRCP
+cloudyness? 24: ACMC/ACMH day:ACSC/ACSH -  not enough data points
+sunhours i can extract from lat/long / PSUN(percent possible sunshine)/ TSUN
+wind speed AWND
+
+9999 empty field
+
+Data per month?
+so compute averages per month (stddev/stderr)? - too hard in sql but can do 95% CI's 
+
+
+https://open-elevation.com/ API for elevation data
+~100 or so -9999 values, rest seems okay
+
+Kriging for interpolation between stations. Can include elevation as variable?
